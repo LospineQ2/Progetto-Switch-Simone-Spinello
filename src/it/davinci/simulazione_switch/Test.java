@@ -10,12 +10,12 @@ public class Test
         Porta portaA=new Porta("A");
         Porta portaB=new Porta("B");
         int p=8,q;
-        int time=10;
+        int time=100;
         int totalFrame=0;
 
-        Integer sommaCodaA[]={0,0,0};
+        Double sommaCodaA[]={0.0,0.0,0.0};
 
-        Integer sommaCodaB[]={0,0,0};
+        Double sommaCodaB[]={0.0,0.0,0.0};
 
         for (int i=0;i<time;i++)
         {
